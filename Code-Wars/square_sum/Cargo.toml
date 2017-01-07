@@ -1,0 +1,9 @@
+[package]
+name = "square_sum"
+version = "0.1.0"
+authors = ["Stanislav Kozlovski <familyguyuser192@windowslive.com>"]
+
+[lib]
+name="lib"
+path="src/lib.rs"
+[dependencies]
