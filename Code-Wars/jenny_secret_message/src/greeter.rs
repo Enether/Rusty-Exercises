@@ -1,7 +1,6 @@
 pub fn greet(input : &str) -> String {
-    if input == "Johnny" {
-        return String::from("Hello, my love!");
+    match input {
+        "Johnny" => String::from("Hello, my love!"),
+        _ => format!("Hello, {}!", input),  
     }
-
-    return format!("Hello, {}!", input);
 }
