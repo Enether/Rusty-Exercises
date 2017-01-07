@@ -1,0 +1,8 @@
+[package]
+name = "last"
+version = "0.1.0"
+authors = ["Enether <familyguyuser192@windowslive.com>"]
+[lib]
+name="mylib"
+path="src/lib.rs"
+[dependencies]
