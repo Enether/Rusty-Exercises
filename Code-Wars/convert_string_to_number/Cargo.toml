@@ -1,0 +1,6 @@
+[package]
+name = "convert_string_to_number"
+version = "0.1.0"
+authors = ["Stanislav Kozlovski <familyguyuser192@windowslive.com>"]
+
+[dependencies]
