@@ -1,0 +1,6 @@
+[package]
+name = "mini_max_sum"
+version = "0.1.0"
+authors = ["Stanislav Kozlovski <familyguyuser192@windowslive.com>"]
+
+[dependencies]
