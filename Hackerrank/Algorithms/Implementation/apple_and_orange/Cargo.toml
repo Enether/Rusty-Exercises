@@ -1,0 +1,6 @@
+[package]
+name = "apple_and_orange"
+version = "0.1.0"
+authors = ["Stanislav Kozlovski <familyguyuser192@windowslive.com>"]
+
+[dependencies]
