@@ -1,0 +1,6 @@
+[package]
+name = "append_and_delete"
+version = "0.1.0"
+authors = ["Enether <familyguyuser192@windowslive.com>"]
+
+[dependencies]
