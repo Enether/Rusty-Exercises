@@ -1,0 +1,6 @@
+[package]
+name = "non_divisible_subset"
+version = "0.1.0"
+authors = ["Enether <familyguyuser192@windowslive.com>"]
+
+[dependencies]

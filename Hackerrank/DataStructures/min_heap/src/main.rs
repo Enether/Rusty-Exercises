@@ -111,7 +111,7 @@ fn main() {
         let command_str = &mut String::new();
         stdin.read_line(command_str);
         let command_args: Vec<i32> = command_str.trim().split_whitespace().map(|a| a.parse().unwrap()).collect();
-        
+
         let command_type = get_command_type(command_args[0]);
 
         match command_type {
@@ -128,8 +128,8 @@ mod tests {
 
     #[test]
     fn test_heap_default_input() {
-        let mut heap: Heap = Heap {values: vec![]};
         heap.add(4);
+        let mut heap: Heap = Heap {values: vec![]};
         heap.add(9);
         heap.remove(4);
         assert!(heap.values[0] == 9);
