@@ -1,0 +1,6 @@
+[package]
+name = "insertion_sort_part_II"
+version = "0.1.0"
+authors = ["Enether <familyguyuser192@windowslive.com>"]
+
+[dependencies]
